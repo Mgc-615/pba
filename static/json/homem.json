@@ -1,0 +1,185 @@
+{	"move":[{
+		"imgurl":"http://appimg.pba.cn/2016/07/26/dfb1909ea3767212180ac28f6aae8982.jpg"
+		},
+		{
+		"imgurl":"http://appimg.pba.cn/2016/12/28/667e9b6c9288c91473b74e5dc8f1b996.jpg"
+		},
+		{
+		"imgurl":"http://appimg.pba.cn/2016/12/28/3d91760004d1a6d2392921ce549fe240.jpg"
+		}],
+	"banner":[{
+			"imgurl":"http://pbaimage.pba.cn/2014/m.pba.cn/images/homepage/kwzx.jpg",
+			"alt":"矿物遮瑕"
+		},
+		{
+			"imgurl":"http://pbaimage.pba.cn/2014/m.pba.cn/images/homepage/newzqr.jpg",
+			"alt":"妆前乳"
+		},
+		{
+			"imgurl":"http://pbaimage.pba.cn/2014/m.pba.cn/images/homepage/bb-qd.jpg",
+			"alt":"气垫BB"
+		}],
+		"goods":[
+		{
+			"goods_id": "417",
+			"goods_name": " \u6c14\u57abBB",
+			"simple_desc": "\u6c34\u6da6\u6e05\u900f \u6253\u9020\u7a7a\u6c14\u611f\u88f8\u5986",
+			"text_desc": "\u81ea\u7136\u906e\u7455\uff0c\u6c34\u6da6\u6e05\u900f",
+			"shop_price": "49.90",
+			"spec": "15g\r",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2016\/08\/25\/6d37783ec9981bfbe61ebf9588a3dba8.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2016\/08\/25\/a2a780df3b71d4ceefe96dcdc496d10d.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2016\/08\/25\/e58b1a407a00874791ec055ef6db0efb.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/9.png",
+			"iconstatus": "9",
+			"color_num": "1",
+			"color_status": "20",
+			"bn_goods_id": "2830",
+			"arrival_time": ""
+		}, {
+			"goods_id": "418",
+			"goods_name": " \u53cc\u8272\u4fee\u5bb9\u7c89",
+			"simple_desc": "\u5b9e\u529b\u7626\u8138 \u8f7b\u677e\u4fee\u51fa\u5c0fV\u8138",
+			"text_desc": "\u53cc\u8272\u5408\u4e00\uff0c\u4fee\u9970\u8f6e\u5ed3",
+			"shop_price": "39.90",
+			"spec": "10g\r",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2016\/06\/17\/4747d199074ebdb3a17bd95517caf70f.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2016\/06\/17\/e10a3d512ec31a62b7fcd14c7ffef59d.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2016\/06\/17\/9e8c6a13cfdcc569f8d380a9d7f5f6f5.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/null.png",
+			"iconstatus": "0",
+			"color_num": "1",
+			"color_status": "20",
+			"bn_goods_id": "2833",
+			"arrival_time": ""
+		}, {
+			"goods_id": "237",
+			"goods_name": " \u77ff\u7269\u6563\u7c89",
+			"simple_desc": "\u8d85\u63a7\u6cb9 \u4e0d\u8131\u5986\u7684\u79d8\u5bc6",
+			"text_desc": "\u7ec6\u817b\u7c89\u8d28\uff0c\u670d\u5e16\u5b9a\u5986\uff0c\u5728\u5e95\u5986\u540e\u4f7f\u7528\uff0c\u8f7b\u8584\u7684\u8d34\u670d\u529b\u5e26\u7ed9\u808c\u80a4\u5149\u6ed1\u7ec6\u5ae9\u5986\u5bb9\u3002",
+			"shop_price": "35.90",
+			"spec": "12g\r",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2015\/04\/30\/e2ea16254bf2cde5f980e159650ac750.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2015\/04\/30\/dfed89b4123fcf380f7720d9dd6659c8.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2015\/04\/30\/1eb4493c820825887ce454b2291044e8.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/null.png",
+			"iconstatus": "0",
+			"color_num": "2",
+			"color_status": "20",
+			"bn_goods_id": "",
+			"arrival_time": ""
+		}, {
+			"goods_id": "297",
+			"goods_name": "\u53cc\u5934\u776b\u6bdb\u818f",
+			"simple_desc": "\u53cc\u5934\u8bbe\u8ba1 \u53cc\u500d\u653e\u5927\u7535\u773c",
+			"text_desc": "\u53cc\u500d\u7f8e\u77b3\uff0c\u53cc\u500d\u201c\u775b\u201d\u5f69\u3002\u8d28\u5730\u8f7b\u76c8\uff0c\u53cc\u5934\u7ba1\u72b6\u66f4\u65b9\u4fbf\u4e0a\u4e0b\u776b\u6bdb\u7684\u4f7f\u7528\uff0c\u4e0d\u6613\u8131\u5986\u3002",
+			"shop_price": "29.90",
+			"spec": "7g\r",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2015\/07\/17\/44b2df08c3fc05cf657c37f1f07c9cab.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2015\/07\/17\/7c2689b1978f91884073de9f213d493e.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2015\/07\/17\/a54226dae5f4520bde0734e477383eb7.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/null.png",
+			"iconstatus": "0",
+			"color_num": "1",
+			"color_status": "20",
+			"bn_goods_id": "2685",
+			"arrival_time": ""
+		}, {
+			"goods_id": "72",
+			"goods_name": " \u6e05\u989c\u5316\u5986\u68c9 100\u7247",
+			"simple_desc": "\u5378\u62a4\u4e24\u7528 \u771f\u6b63\u5b89\u5168\u4eb2\u80a4",
+			"text_desc": "PBA \u6e05\u989c\u5316\u5986\u68c9,\u66f4\u5b89\u5168\u7684\u5316\u5986\u68c9;\u4e0d\u542b\u4efb\u4f55\u8367\u5149\u5242\u548c\u6f02\u767d\u7c89\uff0c100%\u7cbe\u9009\u65b0\u7586\u7ec6\u7ed2\u68c9\u4f5c\u4e3a\u539f\u6599,\u76f8\u6bd4\u666e\u901a\u68c9\u82b1\u8d28\u5730\u66f4\u52a0\u7ec6\u817b\u3001\u67d4\u8f6f\uff0c\u5929\u7136\u4eb2\u80a4;\u91c7\u7528\u4e86\u521b\u65b0\u7684\u5939\u5c42\u8bbe\u8ba1\uff0c\u4e2d\u95f4\u5939\u5c42\u7ea4\u7ef4\u957f\u5ea6\u4e3a22mm-23mm;\u9ad8\u8fbe19\u500d\u7684\u5438\u6c34\u7387\uff0c\u80fd\u5145\u5206\u5438\u6536\u5316\u5986\u6c34\u3001\u4e73\u6db2\u7b49\u62a4\u80a4\u4ea7\u54c1\u3002",
+			"shop_price": "15.90",
+			"spec": "",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2014\/12\/30\/73869dd2ab1767d80b6661bc56240734.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2014\/12\/30\/3da89b2155c6bd45db84de60290a32d7.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2014\/12\/30\/866d94e23b3e6674d810e477173d2877.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/null.png",
+			"iconstatus": "0",
+			"color_num": "1",
+			"color_status": "20",
+			"bn_goods_id": "2052",
+			"arrival_time": ""
+		}, {
+			"goods_id": "385",
+			"goods_name": " \u5357\u6fb3\u5927\u5229\u4e9a\u7c89\u7ea2\u8d77\u6ce1\u8461\u8404\u9152",
+			"simple_desc": "\u5973\u751f\u90fd\u7231\u559d\u7684\u5c0f\u751c\u9152",
+			"text_desc": "\u6fb3\u6d32\u539f\u88c5\u74f6\u53e3",
+			"shop_price": "19.90",
+			"spec": "200ml\r",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2016\/04\/25\/0bc4b26fce37d8a8fb1df6e74bbe2200.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2016\/04\/25\/4f7ceeb34666a6363c509129e92725a5.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2016\/04\/25\/72aa382b2164d27e53382d186144148c.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/3.png",
+			"iconstatus": "3",
+			"color_num": "1",
+			"color_status": "20",
+			"bn_goods_id": "2802",
+			"arrival_time": ""
+		}, {
+			"goods_id": "268",
+			"goods_name": " \u5378\u5986\u6c34",
+			"simple_desc": "\u6e05\u723d\u5378\u9664\u5f69\u5986 \u590f\u65e5\u5f3a\u63a8",
+			"text_desc": "3\u79d2\u949f\u5378\u5986 \u773c\u5507\u9002\u7528",
+			"shop_price": "49.90",
+			"spec": "160ml\r",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2015\/06\/16\/33eed24aeabc4c22345da3f937b683dc.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2015\/06\/16\/a1c5f1d6614264a6cac9796b0aa900ef.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2015\/06\/16\/5aca6a72751f64a9c2d4b67476517cc5.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/null.png",
+			"iconstatus": "0",
+			"color_num": "1",
+			"color_status": "20",
+			"bn_goods_id": "2684",
+			"arrival_time": ""
+		}, {
+			"goods_id": "333",
+			"goods_name": " \u6d01\u9762\u5237",
+			"simple_desc": "\u98ce\u9761\u4e9a\u6d32\u7684\u6bdb\u5b54\u6e05\u6d01\u5668",
+			"text_desc": "\u98ce\u9761\u4e9a\u6d32\u7684\u6bdb\u5b54\u6e05\u6d01\u5668",
+			"shop_price": "19.90",
+			"spec": "1\u4e2a",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2015\/12\/04\/0a0fd92e5e91e4265bb80fff8ca4723a.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2015\/12\/04\/b8d7a7f97c6c196076acc11c876763f5.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2015\/12\/04\/10b231848d0b542a7555177a76f19f7b.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/null.png",
+			"iconstatus": "0",
+			"color_num": "1",
+			"color_status": "20",
+			"bn_goods_id": "2768",
+			"arrival_time": ""
+		}, {
+			"goods_id": "258",
+			"goods_name": " \u73bb\u5c3f\u9178\u7cbe\u534e\u6db2",
+			"simple_desc": "\u8d85\u8865\u6c34 5\u500d\u9501\u6c34\u4fdd\u6e7f",
+			"text_desc": "\u8574\u542b\u4e30\u5bcc\u7684\u900f\u660e\u8d28\u9178\u94a0\uff0c\u5e2e\u52a9\u808c\u80a4\u5438\u6536\u5927\u91cf\u6c34\u5206\uff0c\u4ee4\u808c\u80a4\u4fdd\u6301\u4fdd\u6c34\u72b6\u6001\uff0c\u7d27\u81f4\u6709\u5f39\u6027\u3002",
+			"shop_price": "29.90",
+			"spec": "18ml\r",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2017\/03\/03\/7b88e4b9853250caa53b19386064d57d.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2017\/03\/03\/edde0f929f90d15b7e9bc5f2431a3c0c.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2017\/03\/03\/4dcb00bddd588c6de08a7191f73067a7.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/null.png",
+			"iconstatus": "0",
+			"color_num": "1",
+			"color_status": "20",
+			"bn_goods_id": "2640",
+			"arrival_time": ""
+		}, {
+			"goods_id": "257",
+			"goods_name": " \u80f6\u539f\u86cb\u767d\u7cbe\u534e\u6db2",
+			"simple_desc": "\u7d27\u81f4\u808c\u80a4 \u4f60\u7684\u5e74\u8f7b\u808c\u5bc6",
+			"text_desc": "\u8865\u5145\u808c\u80a4\u80f6\u539f\u86cb\u767d\uff0c\u5e2e\u52a9\u7d27\u5b9e\u808c\u80a4\uff0c\u7ed9\u4e88\u808c\u80a4\u5e7c\u6ed1\u67d4\u5ae9\u7684\u6548\u679c\u3002\u957f\u671f\u4f7f\u7528\u4ee4\u808c\u80a4\u5bcc\u6709\u5f39\u6027\u3002",
+			"shop_price": "39.90",
+			"spec": "18ml\r",
+			"advertising_photo": "http:\/\/appimg.pba.cn\/2015\/06\/11\/919e4051896eae5b03920614fb83e49b.jpg",
+			"outside_view": "http:\/\/appimg.pba.cn\/2015\/06\/11\/c63be446ddac1eccd646ede1e52b5147.jpg",
+			"list_picture": "http:\/\/appimg.pba.cn\/2015\/06\/11\/68cffaa97392b48e577517b061fdd95f.jpg",
+			"icon": "http:\/\/pbaimage.pba.cn\/pbaapp\/icon\/4.png",
+			"iconstatus": "4",
+			"color_num": "1",
+			"color_status": "20",
+			"bn_goods_id": "2641",
+			"arrival_time": ""
+		}
+	] 
+}
