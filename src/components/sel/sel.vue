@@ -1,20 +1,26 @@
 <template>
 	<div class="header">
 		<div class="sel">
-			<input type="text" class="texts" value="搜索商品" >
-			<button type="button"></button>
+			<input type="text" class="texts" value="搜索商品" v-model="texv">
+			<router-link :to="{name:'selmain',params:{'texv':texv}}" class="selicon" ></router-link>
+				<router-view/>
+		</router-link>
 		</div>
 	</div>
 </template>
-
 <script>
 export default {
   name: 'sel',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+			texv:'搜索商品'
     }
-  }
+  },
+	mounted(){
+	},
+	methods:{
+	}
 }
 </script>
 
@@ -35,15 +41,17 @@ export default {
 		height: 2.5rem;
 		color: #666;
 		padding-left: 0.625rem;
-		border-radius: 0.3125rem 0 0.3125rem 0;
+		border-radius: 0.3125rem 0 0 0.3125rem;
 		outline:none ;
 	}
-	div button{
+	.selicon{
 		width: 9%;
 		height: 2.5rem;
 		background-color: #fff;
 		border: none;
 		background: #fff url(search-input.png) no-repeat 0rem;
 		background-size: 70%;
+		border-radius: 0 0.3125rem 0.3125rem 0;
+		outline:none ;
 	}
 </style>

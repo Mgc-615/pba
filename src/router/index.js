@@ -5,7 +5,7 @@ import home from '@/components/home/home'
 import cat from '@/components/cat/cat'
 import shopcar from '@/components/shopcar/shopcar'
 import user from '@/components/user/user'
-
+import selmain from '@/components/selmain/selmain'
 Vue.use(Router)
 
 export default new Router({
@@ -33,6 +33,11 @@ export default new Router({
 			path: '/user',
 			name: 'user',
 			component: user
+		},
+		{
+			path: '/selmain',
+			name: 'selmain',
+			component: selmain
 		}
   ]
 })

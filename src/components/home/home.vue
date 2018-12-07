@@ -75,7 +75,7 @@ export default {
 			 this.$toast({
 				   message: '抱歉,暂时缺货',
 						position: 'bottom',
-						duration: 3000
+						duration: 2000
 			 });
 		}
 	}
