@@ -6,6 +6,7 @@ import cat from '@/components/cat/cat'
 import shopcar from '@/components/shopcar/shopcar'
 import user from '@/components/user/user'
 import selmain from '@/components/selmain/selmain'
+import userinfo from '@/components/userinfo/userinfo'
 Vue.use(Router)
 
 export default new Router({
@@ -38,6 +39,11 @@ export default new Router({
 			path: '/selmain',
 			name: 'selmain',
 			component: selmain
+		},
+		{
+			path: '/userinfo',
+			name: 'userinfo',
+			component: userinfo
 		}
   ]
 })

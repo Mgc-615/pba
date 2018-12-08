@@ -4,13 +4,13 @@
 			<img src="./pba-slogan.png" />
 		</div>
 		<div class="login">
-			<input type="text" placeholder="账号" />
-			<input type="password" placeholder="密码" />
+			<input type="text" placeholder="账号" @blur="blo" ref="login" />
+			<input type="password" placeholder="密码" @blur="reo" ref="regin" />
 		</div>
-		<div class="gologin">
+		<div class="gologin" @click="golo">
 			立即登录
 		</div>
-		<div class="regin gologin">
+		<div class="regin gologin" @click="gore">
 			注册PBA账号
 		</div>
 	</div>
@@ -19,11 +19,59 @@
 <script>
 export default {
   name: 'user',
+	props:["user"],
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  }
+  },
+	mounted(){
+		if(localStorage.getItem("username")){
+			this.$router.push({name:'userinfo'})
+		}
+	}
+	,
+	methods:{
+		blo(){
+			console.log("账号：",this.$refs.login.value)
+		},
+		reo(){
+			console.log("密码：",this.$refs.regin.value)
+		},
+		golo(){
+			if(this.$refs.login.value==""){
+				this.$toast({
+						message: '账号不能为空',
+							position: 'bottom',
+							duration: 2000
+				});
+			}else if(this.$refs.regin.value==""){
+				this.$toast({
+						message: '密码不能为空',
+							position: 'bottom',
+							duration: 2000
+				});
+			}else{
+				for(let i=0;i<this.user.length;i++){
+					if((this.$refs.login.value==this.user[i].username)&&(this.$refs.regin.value==this.user[i].pwd)){
+						localStorage.setItem("username",this.user[i].username);
+						localStorage.setItem("pwd",this.user[i].pwd);
+						this.$router.push({name:'userinfo',params:{obj:this.user[i]}});
+					}else{
+						this.$toast({
+								message: '账号或密码错误',
+									position: 'bottom',
+									duration: 2000
+						});
+					}
+				}
+			
+			}
+		},
+		gore(){
+			console.log("bbb")
+		}
+	}
 }
 </script>
 

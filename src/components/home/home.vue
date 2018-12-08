@@ -25,7 +25,7 @@
 								<p class="gsp">专享价：<span>￥{{item.shop_price}}</span></p>
 							</div>
 							<div class="shopcar">
-								<img src="static/img/shopcart-light.png"  v-if="item.iconstatus>0">
+								<img src="static/img/shopcart-light.png"  v-if="item.iconstatus>0" @click="add(item)">
 								<img src="static/img/shopcart-unlight.png"  @click="noshop()" v-else >
 							</div>
 						</div>
@@ -37,6 +37,7 @@
 
 <script>
 import sel from '@/components/sel/sel'
+import vue from 'vue'
 import axios from 'axios'
 import { Swipe, SwipeItem } from 'mint-ui';
 import {Toast} from 'mint-ui';
@@ -44,6 +45,7 @@ import "mint-ui/lib/style.css"
 
 export default {
   name: 'index',
+	props:["user"],
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
@@ -51,6 +53,7 @@ export default {
 			move:[],
 			goods:[],
 			flag:false,
+			shops:[]
     }
   },
 	mounted(){
@@ -63,7 +66,6 @@ export default {
 		getData(){
 		let url ='http://localhost:86/static/json/homem.json';
 			axios.get(url).then(res=>{
-				console.log(res);
 				this.banner=res.data.banner;
 				this.move=res.data.move;
 				this.goods=res.data.goods;
@@ -77,6 +79,32 @@ export default {
 						position: 'bottom',
 						duration: 2000
 			 });
+		},
+		add(obj){
+			if(localStorage.getItem("username")){
+				 if(obj.count){
+					obj.count++;
+					console.log("obj",obj)
+				}else{
+				 vue.set(obj, 'count', 1);
+					console.log("obj",obj)
+				}
+				console.log("this.user",this.user)
+				for(let i=0;i<this.$store.state.car.length;i++){
+					if(this.$store.state.car[i].goods_id==obj.goods_id){
+							this.$store.state.car[i].count++;
+							return
+					}
+				}
+				this.$store.state.car.push(obj)
+			}else{
+				this.$toast({
+						message: '请您先登录',
+							position: 'bottom',
+							duration: 2000
+				});
+				this.$router.push({name:'user'});
+			}
 		}
 	}
 }

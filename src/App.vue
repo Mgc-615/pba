@@ -6,7 +6,7 @@
 			<router-link to="/shopcar"><div><span><img src="../static/img/icon_cart.png" class="hof" /><img src="../static/img/icon_cart_active.png"  class="hot" /></span><p>购物车</p></div></router-link>
 			<router-link to="/user"><div><span><img src="../static/img/icon_my.png" class="hof" /><img src="../static/img/icon_my_active.png"  class="hot" /></span><p>我的</p></div></router-link>
 		</div>
-    <router-view/>
+    <router-view :user="user"/>
   </div>
 </template>
 
@@ -16,7 +16,8 @@ export default {
 	data(){
 		return{
 			home:true,
-			category:false
+			category:false,
+			user:[{"username":"admin","pwd":"admin","shops":[]}]
 		}
 	},
 	methods:{

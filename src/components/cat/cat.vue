@@ -45,7 +45,6 @@ export default {
 	  getData(){
 	  let url ='http://localhost:86/static/json/homem.json';
 	  	axios.get(url).then(res=>{
-	  		console.log(res);
 	  		this.allgoods=res.data.allgoods;
 	  		this.category=res.data.category;
 	  		this.efficacy=res.data.efficacy;
