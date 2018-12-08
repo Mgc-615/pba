@@ -1,7 +1,7 @@
 <template>
 	<div class="selmain">
 	<div class="sel">
-		<input type="text" class="texts" value="搜索商品" >
+		<input type="text" class="texts" ref="texts" placeholder="搜索商品" v-model="texv">
 		<button class="selicon" @click="postv()"></router-link>
 				<!-- <router-view/> -->
 		</button>
@@ -40,10 +40,11 @@
 						</div>
 					</div>
 			</li>
+			<li v-if="len===0">
+				<div>{{nosel()}}</div>
+			</li>
 		</ul>
-		<div v-for="(item,key) in goods" :key="key" v-show="!show">
-			<div class="gimg"><img src="item.outside_view"></div>
-		</div>
+		
 	</div>
 	<!-- {{goods}} -->
 	<!-- {{show}} -->
@@ -59,8 +60,9 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
 	  goods:[],
-	  texv:"",
-	  show:this.goods
+	  texv:'',
+	  show:this.goods,
+	  len:1
     }
   },
   components:{
@@ -80,6 +82,8 @@ export default {
 	  },
 	  gettextv(str){
 		  this.str=str;
+			console.log(this.str);
+			this.selgoods(str);
 	  },
 	 
 	  selgoods(str){
@@ -94,19 +98,22 @@ export default {
 		}else if(str==undefined){
 			this.show=arr;
 			return arr;
-		}
-		console.log("this.str",str)
-		for(let i=0;i<this.goods.length;i++){
-			if(this.goods[i].goods_name.indexOf(str)>=0){
-				arr2.push(this.goods[i]);
+		}else{
+			for(let i=0;i<this.goods.length;i++){
+				if(this.goods[i].goods_name.indexOf(str)>=0){
+					arr2.push(this.goods[i]);
+				}
 			}
-		}
-		this.show=arr2;
-		return arr2;
-	  	
+			
+			this.show=arr2;
+			this.len=arr2.length;
+			console.log("this.len",this.len)
+			return arr2;
+	  }	
 	  },
 	  postv(){
-	  let str=document.getElementsByClassName("texts")[0].value;
+	  let str=this.$refs.texts.value;
+		console.log(str);
 	  this.selgoods(str); 
 	  },
 	  Trim(str)
@@ -119,6 +126,14 @@ export default {
 					position: 'bottom',
 					duration: 2000
 		});
+	},
+	nosel(){
+		this.$toast({
+				message: '抱歉,搜索的商品不存在',
+					position: 'center',
+					duration: 2000
+		});
+		this.selgoods();
 	}
   },
   computed:{
@@ -126,11 +141,6 @@ export default {
 // 	  this.str=document.getElementsByClassName("texts")[0].value;
 // 	  }
   },
-  watch:{
-	  str:()=>{
-		 this.selgoods(str);  
-	  }
-  }
 }
 </script>
 

@@ -1,10 +1,8 @@
 <template>
 	<div class="header">
 		<div class="sel">
-			<input type="text" class="texts" value="搜索商品" v-model="texv">
+			<input type="text" class="texts" placeholder="搜索商品" v-model="texv">
 			<router-link :to="{name:'selmain',params:{'texv':texv}}" class="selicon" ></router-link>
-				<router-view/>
-		</router-link>
 		</div>
 	</div>
 </template>
@@ -14,7 +12,7 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
-			texv:'搜索商品'
+			texv:''
     }
   },
 	mounted(){
