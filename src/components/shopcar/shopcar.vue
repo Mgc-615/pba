@@ -12,7 +12,7 @@
 					<p class="gsp">专享价：<span>￥{{item.shop_price}}</span></p>
 				</div>
 				<div class="count">
-					<button type="button" @click="jian(key)">-</button><input type="number" :value="item.count"><button type="button" @click="add(key)">+</button>
+					<button type="button" @click="jian(key)">-</button><input type="number" :value="item.count" @blur="inblur(key)" ref="inblur"><button type="button" @click="add(key)">+</button>
 				</div>
 			</div>
 		</div>
@@ -70,6 +70,10 @@ export default {
 		},
 		tohome(){
 			this.$router.push({name:'home'})
+		},
+		inblur(index){
+			// console.log("222",this.$refs.inblur[0].value)
+			this.$store.state.car[index].count=Number(this.$refs.inblur[0].value);
 		}
 	}
 }
@@ -128,9 +132,10 @@ p.gsp span{
 }
 .count input{
 	font-size: 1rem;
-	width: 1rem;
+	width: 1.2rem;
 	text-align: center;
 	margin: 0.5rem;
+	outline:none ;
 }
 .count button{
 	width: 1.3rem;
@@ -139,6 +144,7 @@ p.gsp span{
 	text-align: center;
 	font-size: 1.2rem;
 	border: 1px solid #ddd;
+	outline:none ;
 }
 .allp{
 	width: 100%;

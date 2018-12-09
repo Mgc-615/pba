@@ -107,13 +107,13 @@ export default {
 			
 			this.show=arr2;
 			this.len=arr2.length;
-			console.log("this.len",this.len)
+			// console.log("this.len",this.len)
 			return arr2;
 	  }	
 	  },
 	  postv(){
 	  let str=this.$refs.texts.value;
-		console.log(str);
+		// console.log(str);
 	  this.selgoods(str); 
 	  },
 	  Trim(str)
