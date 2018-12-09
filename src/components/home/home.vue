@@ -82,21 +82,42 @@ export default {
 		},
 		add(obj){
 			if(localStorage.getItem("username")){
-				 if(obj.count){
-					obj.count++;
-					console.log("obj",obj)
-				}else{
+				 if(!this.$store.state.car.length){
 				 vue.set(obj, 'count', 1);
 					console.log("obj",obj)
+					this.$store.state.car.push(obj);
+					// localStorage.setItem("carmsg",JSON.stringify(this.$store.state.car));
+					this.$store.commit('increment');
+					this.$toast({
+							message: '成功加入购物车',
+								position: 'bottom',
+								duration: 2000
+					});
+					return
 				}
 				console.log("this.user",this.user)
 				for(let i=0;i<this.$store.state.car.length;i++){
 					if(this.$store.state.car[i].goods_id==obj.goods_id){
 							this.$store.state.car[i].count++;
+							this.$store.dispatch('increment');
+							// localStorage.setItem("carmsg",JSON.stringify(this.$store.state.car));
+							this.$toast({
+									message: '成功加入购物车',
+										position: 'bottom',
+										duration: 2000
+							});
 							return
 					}
 				}
-				this.$store.state.car.push(obj)
+				vue.set(obj, 'count', 1);
+				console.log("obj",obj)
+				this.$store.state.car.push(obj);
+				localStorage.setItem("carmsg",JSON.stringify(this.$store.state.car));
+				this.$toast({
+						message: '成功加入购物车',
+							position: 'bottom',
+							duration: 2000
+				});
 			}else{
 				this.$toast({
 						message: '请您先登录',

@@ -4,7 +4,7 @@
 			<router-link to="/home" ><div @click="homea"><span><img src="../static/img/icon_home.png"  class="hof" /><img src="../static/img/icon_home_active.png"  class="hot" /></span><p>首页</p></div></router-link>
 			<router-link to="/cat"><div @click="categorya"><span><img src="../static/img/icon_category.png"  class="hof" /><img src="../static/img/icon_category_active.png"  class="hot" /></span><p>分类 </p></div></router-link>
 			<router-link to="/shopcar"><div><span><img src="../static/img/icon_cart.png" class="hof" /><img src="../static/img/icon_cart_active.png"  class="hot" /></span><p>购物车</p></div></router-link>
-			<router-link to="/user"><div><span><img src="../static/img/icon_my.png" class="hof" /><img src="../static/img/icon_my_active.png"  class="hot" /></span><p>我的</p></div></router-link>
+			<router-link to="/userinfo"><div><span><img src="../static/img/icon_my.png" class="hof" /><img src="../static/img/icon_my_active.png"  class="hot" /></span><p>我的</p></div></router-link>
 		</div>
     <router-view :user="user"/>
   </div>

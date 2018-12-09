@@ -33,10 +33,8 @@ export default {
 	,
 	methods:{
 		blo(){
-			console.log("账号：",this.$refs.login.value)
 		},
 		reo(){
-			console.log("密码：",this.$refs.regin.value)
 		},
 		golo(){
 			if(this.$refs.login.value==""){
